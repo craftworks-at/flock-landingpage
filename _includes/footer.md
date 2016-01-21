@@ -1,3 +1,3 @@
 
 
-Designed by [craftworks.at](http://craftworks.at/)
+Entworfen von [craftworks.at](http://craftworks.at/)
