@@ -1,0 +1,9 @@
+flock-landingpage-clubs:
+  image: grahamc/jekyll
+  ports:
+    - "4000:4000"
+  volumes:
+    - ./:/src
+  working_dir: /src
+  entrypoint: bundle exec jekyll
+  command: serve -w -H 0.0.0.0 --baseurl=""
