@@ -1,4 +1,6 @@
+/vendor
 _site/
 .DS_Store
 .jekyll-metadata.idea
 .idea
+/Gemfile.lock
