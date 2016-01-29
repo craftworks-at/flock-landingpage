@@ -7,12 +7,30 @@ nav ul li a, nav ul li a:visited {
   color: #2e2e2e;
   transition-property: background;
   transition-duration: 0.5s;
+  padding: 0 2em;
 }
 nav ul li:hover, nav ul li.active {
 
 }
 nav ul li a:hover {
   background: #dddddd;
+}
+
+
+/* what */
+#what {
+  padding-top: 40px;
+}
+#what .container {
+  width: 95%;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  #what .container {
+    width: 95%;
+  }
+}
+#what .left-side {
+  width: 60%;
 }
 
 .signup-form {
