@@ -1,19 +1,37 @@
 
 /* nav */
 nav {
-  background: #ebebeb;
+  background: {{ site.colors['white'] }};
+}
+nav ul li {
+  text-transform: none;
+  padding: 6px 0 0;
 }
 nav ul li a, nav ul li a:visited {
   color: #2e2e2e;
-  transition-property: background;
+  transition-property: all;
   transition-duration: 0.5s;
   padding: 0 2em;
 }
-nav ul li:hover, nav ul li.active {
 
+nav ul li.p-intro a {
+  font-weight: normal;
+  font-size: 1.2em;
+  color: #142243;
+  opacity: 1;
+}
+
+nav ul li:hover, nav ul li.active {
+  border-top-width: 9px;
 }
 nav ul li a:hover {
   background: #dddddd;
+}
+
+/* intro */
+
+h1.claim {
+  line-height: 65px;
 }
 
 
