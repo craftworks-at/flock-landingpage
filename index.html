@@ -1,6 +1,6 @@
 ---
 layout: default
-title: flock.email
+title: "flock.email"
 ---
 <div id="main">
 
@@ -12,8 +12,6 @@ title: flock.email
             {% endfor %}
         </ul>
     </nav>
-
-
     {% for page in site.posts reversed %}
     {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
     <div id="{{id}}" class="section p-{{id}}">
