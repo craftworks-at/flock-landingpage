@@ -7,11 +7,13 @@ safe: false
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
-permalink: /
 timezone: null
 lsi: false
-markdown: kramdown
-highlighter: pygments
+# source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
 
 
 ### content configuration ###
@@ -19,10 +21,19 @@ title:       "flock.email"
 keywords:    "flock, email, communication, one-to-many conversations, polls, questions and scheduling,  "
 description: "Making communication with a group of people a pleasure"
 source_link: ""
-baseurl: "/flock-landingpage"
+baseurl: ""
 favicon:     #put a path like: "img/favicon.ico"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"
 google_analytics_key: "UA-71534751-1"
+
+future: true
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
 
 
 ### template colors, used site-wide via css ###
